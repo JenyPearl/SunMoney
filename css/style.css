@@ -1,0 +1,143 @@
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+  background-image: url(../img/sunmoneybackground.png);
+}
+
+.inner_header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo_container h1{
+	color: Orange;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.logo_container h1 span{
+	font-weight: 800;
+	color: green;
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+
+.navigation a:last-child{
+	paddling-right: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+.navigation a li strong{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: Purple;
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+.footer{
+  width: 12%;
+  height: 80px;
+  display: block;
+  background-color: white;
+}
+
+.footer h3{
+	width: 100%;
+	height: 30 px;
+	display: block;
+	color: white;
+}
+
+.footer button{
+	width: 100%;
+	height: 30px;
+	display: block;
+	background-color: pink;
+	color: green;
+	border-radius: 15px;
+}
+
+.video1{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.video3{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0px;
+}
+
+.video3 iframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.video2{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.video4{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0px;
+}
+
+.video4 iframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 100%;
+	width: 100%;
+}
